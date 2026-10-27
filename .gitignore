@@ -1,0 +1,20 @@
+# Віртуальне середовище
+venv/
+env/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest кеш
+.pytest_cache/
+
+# Allure результати та звіти (за бажанням, якщо не хочете зберігати їх у гіті)
+allure-results/
+allure-report/
+
+# Налаштування редакторів
+.vscode/
+.idea/
